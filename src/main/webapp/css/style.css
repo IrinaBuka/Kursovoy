@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'BebasNeue Book';
+    src: url('../fonts/BebasNeue Book.otf');
+}
+body, html {
+  font-family: 'BebasNeue Book' !important;
+  height: 100%;
+  width: 100%;
+}
+body{
+     font-family: 'BebasNeue Book' !important;
+    background-color: #B0C4DE!important ;
+    margin: 0;
+}
+fieldset{
+  margin: 80px !important;
+  font-family: 'BebasNeue Book' !important;
+}
+legend{
+    color: #fff !important;
+    letter-spacing: 2px;
+}
+.cd-main-content {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+
+}
+
+.fix{
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+.bg-1{
+    background-image: url(../img/bg-login.jpg);
+    background-attachment: fixed;
+}
+.bg-2{
+  background-image: url(../img/bg-notes.jpg);
+background-attachment: fixed;
+}
+.bg-3{
+  background-image: url(../img/bg-red.jpg);
+  background-attachment: fixed;
+}
+
+.userRow {
+    margin: 5px 5px 5px 5px;
+    background-color: #afafa2;
+}
+li {
+  margin-top: 10px !important;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.sr-only{
+    font-family: 'BebasNeue Book';
+    font-weight: bold;
+}
+
+.navbar_col {
+    background-color: #4d6265 !important;
+    min-height: 40px;
+      padding-right: 20px;
+      padding-left: 20px;
+      /* background-color: #fafafa; */
+
+      background-repeat: repeat-x;
+      border: 1px solid #d4d4d4;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#fff2f2f2',GradientType=0);
+      -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+      font-size: 18px;
+      color: #e6f2ee;
+
+}
+.navbar .navi>li>a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #e6f2ee;
+  text-decoration: none;
+}
+
+.navbar .navi>li{
+   list-style-type: none;
+   display: inline-block; 
+}
+.reg{
+
+    background-color: rgba(187,227,213,0.5);
+    border-radius: 8px;
+    margin: 100px 310px;
+    width: 30%;
+}
+#doLogin{
+  margin: 0px 25px !important;
+  padding: 10px 0;
+  letter-spacing: 2px;
+}
+.inf-block{
+  font-size: 30px;
+  background-color: red;
+  padding: 50px;
+  font-family: 'BebasNeue Book' !important;
+
+}
+.btn_my{
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+.btn a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.btn{
+  color: #ffffff;
+  background: #d374e4 !important;
+}
+.btn.kn{
+      font-family: 'BebasNeue Book' !important;
+      color: #ffffff;
+      letter-spacing: 1.5px;
+      margin-left: 20px;
+      background-color: #973a58 !important;
+      margin-top: 10px;
+}
+/*--------Notes----*/
+
+table{
+  margin-top: 100px;
+  background-color: rgba(123,117,124,0.5) !important;
+  color: #ffffff;
+  font-family: 'BebasNeue Book' !important;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+
+}
+thead{
+  background-color: #7b757c;
+  font-size: 20px;
+ letter-spacing: 2px;
+}
+table td {
+  
+}
+.edit{
+  color: #ffffff;
+  letter-spacing: 3px;
+  margin-top: 50px;
+
+}
+.edit label{
+    font-size: 18px !important;
+    font-weight: bold;
+}
